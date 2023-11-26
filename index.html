@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="" class="a1">Bortarelli</a> <br>
+            <a href="" class="a2">Tienda de Bebidas</a>
+        </div>
+        <button class="abrir-menu" id="abrir"><ion-icon name="reorder-four-outline"></ion-icon></button>
+        
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><ion-icon name="close-circle-outline"></ion-icon></button>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="#bebidas">Productos</a></li>
+                <li><a href="https://wa.me/2215076114" target="_blank">Hace tu Pedido!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="img" class="falling-image"></section>
+
+    <a href="https://wa.me/2215076114" class="whatsapp-float" target="_blank"><i class="fa fa-whatsapp"></i></a>
+
+        <section>
+            <div class="promos-text">
+                <h2>Promos</h2>
+            </div>
+            <div id="bebidas-promos">
+                <div class="card">
+                    <h3>PROMO 1</h3>
+                    <img src="./img/promo1-removebg-preview.png" alt="" style="width:100%">
+                    <p class="title">2 Coca-Cola 1.5L + Fernet 750ML</p>
+                    <p>PRECIO</p>
+                    <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+                </div>
+
+                <div class="card">
+                    <h3>PROMO 2</h3>
+                    <img src="./img/promo2.png" alt="" style="width:100%">
+                    <p class="title">Dos Baggios 1.5L + Vodka Skyy 750ML</p>
+                    <p>PRECIO</p>
+                    <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+                </div>
+
+                <div class="card">
+                    <h3>PROMO 3</h3>
+                    <img src="./img/promo3.png" alt="" style="width:100%">
+                    <p class="title">Dos Baggios 1.5L + Smirnoff 750ML</p>
+                    <p>PRECIO</p>
+                    <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+                </div> 
+
+                <div class="card">
+                    <h3>PROMO 4</h3>
+                    <img src="./img/Promo4.png" alt="" style="width:100%">
+                    <p class="title">Gin Merle 750ML + Dos Tonicas 1.5L</p>
+                    <p>PRECIO</p>
+                    <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+                </div>
+            </div>
+        </section>
+
+    <section id="promo-previa">
+        <div class="contenido">
+            <h2>Promo Previa!</h2>
+            <img src="/img/promo5previa-removebg-preview-removebg-preview.png" alt="Imagen promocional">
+            <p>¡Descubre nuestra increíble promoción! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button>Pedir ahora</button></a>
+        </div>
+    </section>
+
+    <div class="productos-text">
+        <h2>Productos</h2>
+    </div>
+    <div class="bebidas" id="bebidas">
+        <div class="card">
+            <h3>Fernet Branca</h3>
+            <img src="./img/fernet-branca-.png" alt="" style="width:100%">
+            <p class="title">Fernet 750ML</p>
+            <p class="precio">PRECIO</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+
+        <div class="card">
+            <h3>Coca Cola</h3>
+            <img src="./img/coca-cola1.5.png" alt="" style="width:100%">
+            <p class="title">Coca Cola 1.5L</p>
+            <p class="precio">PRECIO</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+
+        <div class="card">
+            <h3>Fernet 1882</h3>
+            <img src="./img/fernet-1882.png" alt="" style="width:100%">
+            <p class="title">Fernet 750ML</p>
+            <p class="precio">PRECIO</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+
+        <div class="card">
+            <h3>Smirnoff</h3>
+            <img src="./img/vodka-smirnoff.png" alt="" style="width:100%">
+            <p class="title">Vodka 750ML</p>
+            <p class="precio">PRECIO</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+    </div>
+
+    <div class="bebidas2">
+        <div class="card">
+            <h3>Skyy</h3>
+            <img src="./img/vodka-skyy.png" alt="" style="width:100%">
+            <p class="title">Vodka 750ML</p>
+            <p class="precio">PRECIO</p> 
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+
+        <div class="card">
+            <h3>Jugo Baggio</h3>
+            <img src="./img/jugo-baggio-1.5.png" alt="" style="width:100%">
+            <p class="title">Naranja 1.5L</p>
+            <p class="precio">PRECIO</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+
+        <div class="card">
+            <h3>Agua Tonica</h3>
+            <img src="./img/agua-tonica.png" alt="" style="width:100%">
+            <p class="title">Agua Tonica 1.5L</p>
+            <p class="precio">PRECIO</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+
+        <div class="card">
+            <h3>Gin Merle</h3>
+            <img src="./img/gin-merle-.png" alt="" style="width:100%">
+            <p class="title">Gin Merle 750ML</p>
+            <p class="precio">PRECIO</p>
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+
+        <div class="card">
+            <h3>Cocecha Tardia</h3>
+            <img src="./img/cosecha-vino-tardia.png" alt="" style="width:100%">
+            <p class="title">Vino Blanco 750ML</p>
+            <p class="precio">PRECIO</p> 
+            <a href="https://wa.me/2215076114" target="_blank"><button class="btn2">Contactanos!</button></a>
+        </div>
+    </div>
+
+    <section id="sobre-nosotros">
+        <div class="sobre-nosotros">
+            <h2>Nosotros</h2>
+            <p></p>
+        </div>
+    </section>
+
+    <footer>
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/bortarelli.bebidas/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://matiasborgini02@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a> 
+                <a href="https://wa.me/2215076114" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href="https://github.com/marianoborgini1" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+
+            <div class="text">
+                <p>Copyrigth &copy;2023; Designey by <span class="designer">Bortarelli</span></p>
+            </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
