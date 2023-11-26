@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 header{
@@ -12,6 +12,7 @@ header{
     position: absolute;
     width: 100%;
     animation: slideDown 1s ease; /* Agregar la animación aquí */
+    font-family: 'BioRhyme Expanded', serif;
 }
 
 header .abrir-menu, .cerrar-menu{
@@ -26,7 +27,7 @@ header .logo{
 header .logo .a1{
     font-weight: bold;
     font-size: 34.5px;
-    color: #c89e5b;
+    color: #cfb07e;
 }
 
 header .a2{
@@ -50,7 +51,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    color: #c89e5b;
+    color: #ddc194;
     transition: 0.3s;
 }
 
@@ -96,6 +97,7 @@ header nav ul li a:hover{
 }
 
 .bebidas2{
+    padding-bottom: 38px;
     padding-left: 100px;
 }
 
@@ -161,7 +163,7 @@ a {
     align-items: center;
     text-align: center;
     padding: 10px 0;
-    background-color: #f2f3f2;
+    background-color: #f7f7f7;
 }
 
 .contenido {
@@ -244,14 +246,9 @@ a {
 
 footer{
     padding-top: 25px;
-    background-color: #2a2a2a;
-    padding-bottom: 15px;
+    background-color: #f3f3f3;
+    padding-bottom: 5px;
     transition: background-color 0.5s, font-size 0.5s;
-}
-
-footer .text h2{
-    color: #f3f3f3;
-    font-size: 28.5px;
 }
 
 .redes-sociales{
@@ -262,8 +259,13 @@ footer .text h2{
 footer .redes-sociales a{
     text-align: center;
     padding: 10px;
-    color: #f2f2f2;
+    color: #696a6b;
     font-size: 32px;
+}
+
+hr{
+    border: 1.5px solid black;
+    width: 22%;
 }
 
 footer .redes-sociales{
@@ -271,27 +273,18 @@ footer .redes-sociales{
 }
 
 footer .text{
-    background-color: #212121;
-    text-align: center;
-    padding: 5px;
-    margin: 0;
+    color: black;
 }
 
 footer .redes-sociales a:hover{
-    color: #c89e5b;
+    color: #a4a4a4;
     transition: 0.6s;
 }
 
 footer .designer{
     text-align: center;
     font-weight: bolder;
-    color: #CBA975;
-}
-
-footer p{
-    text-align: center;
-    font-weight: bolder;
-    color: #f3f3f3;
+    color: #000000;
 }
 
 
@@ -487,6 +480,11 @@ footer p{
     
     .bebidas, .bebidas2{
         padding-left: 25px;
+    }
+
+    hr{
+        border: 1.5px solid black;
+        width: 60%;
     }
 }
 
